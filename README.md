@@ -3,9 +3,7 @@
 ## Visão geral
 ### Problema
 Os problemas estudados e analisados neste projeto são principalmente relacionados a dificuldade e complexidade que pequenos empresários possuem em administrar suas finanças e seus negócios. A gestão financeira é o ponto central de um negócio e se tem a necessidade de um sistema centralizador para facilitar a visualização de gastos e recebimentos.  
-
-### Solução
-A partir do exposto, surgiu a ideia de criar um software como serviço (SaaS) que fará toda a gestão necessária para pequenos empreendedores. O sistema contará com:
+es. O sistema contará com:
 - Dashboard interativo inteligente em tempo real, como despesas, lucros e receitas
 - Categorização automática por tipo de gasto
 - Controle de contas a pagar e receber, podendo ser filtrado por status (Pago, pendente ou atrasado)
@@ -14,7 +12,9 @@ A partir do exposto, surgiu a ideia de criar um software como serviço (SaaS) qu
 As pessoas que podem usar o sistema são:
 - Microempreendedor individual (MEI)
     > Cabeleireiros, eletricistas, costureiras, entregadores
-- Autônomos e Freelancers
+- Autônomos e Freelan
+### Solução
+A partir do exposto, surgiu a ideia de criar um software como serviço (SaaS) que fará toda a gestão necessária para pequenos empreendedorcers
     > Designers, desenvolvedores de software
 - Pequenas empresas e lojas locais
     > Mercadinhos, oficinas, lojas de roupas, pet shops
@@ -95,3 +95,33 @@ _Fase 2 – Versão Produção (6 meses):_
 - App Mobile
 - Suporte multilíngue (Português, Inglês)
 - Área News
+
+## Requisitos
+
+### Funcionais
+1. **Cadastro e autenticação de usuários**
+    - O sistema deve permitir que empreendedores e MEIs possam realizar o cadastro com dados pessoais e do negócio
+    - O sistema deve validar o CNPJ e situação cadastral do MEI na Receita Federal
+    - O sistema deve permitir autenticação via login e senha, além de oferecer autenticação por dois fatores (2FA)
+    - O sistema deve permitir a recuperação de senha via e-mail
+2. **Perfil do empreendedor**
+    - O sistema deve permitir ao usuário completar e editar seu perfil com dados como: área de atuação, tempo de mercado, faturamento médio, etc
+    - O sistema deve exibir o status do cadastro e de eventuais solicitações feitas ao fundo
+    - O sistema deve permitir o upload de documentos necessários para análise de crédito ou investimento (ex: comprovante de endereço, declaração de faturamento, etc.)
+3. **Análise e aprovação**
+    - O sistema deve permitir que analistas do fundo visualizem e filtrem solicitações por status, valor e perfil do solicitante
+    - O sistema deve permitir análise automatizada com base em critérios definidos (ex: score de crédito, CNAE, tempo de atividade, etc.)
+    - O sistema deve permitir comentários internos, atribuição de analistas e registro de decisões
+
+### Não funcionais
+1. **Performance**
+    - O sistema deve responder às solicitações do usuário em no máximo 3 segundos na maioria das operações
+    - O sistema deve suportar pelo menos 5.000 usuários simultâneos sem degradação significativa da performance
+2. **Segurança**
+    - O sistema deve criptografar todas as informações sensíveis armazenadas (dados pessoais, financeiros, documentos)
+    - O sistema deve estar em conformidade com a LGPD (Lei Geral de Proteção de Dados) para proteção de dados pessoais dos usuários
+    - O sistema deve realizar backups automáticos diários e garantir a recuperação dos dados em até 24 horas após um incidente
+3. **Usabilidade**
+    - O sistema deve ser responsivo e funcionar corretamente em dispositivos móveis, tablets e desktops
+    - A interface deve ser intuitiva, com navegação clara, para atender usuários com baixa familiaridade tecnológica
+    - O sistema deve oferecer suporte em português do Brasil, com linguagem clara e acessível
