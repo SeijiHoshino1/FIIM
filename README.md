@@ -14,7 +14,7 @@ As pessoas que podem usar o sistema são:
     > Cabeleireiros, eletricistas, costureiras, entregadores
 - Autônomos e Freelan
 ### Solução
-A partir do exposto, surgiu a ideia de criar um software como serviço (SaaS) que fará toda a gestão necessária para pequenos empreendedorcers
+A partir do exposto, surgiu a ideia de criar um software como serviço (SaaS) que fará toda a gestão necessária para pequenos empreendedores
     > Designers, desenvolvedores de software
 - Pequenas empresas e lojas locais
     > Mercadinhos, oficinas, lojas de roupas, pet shops
@@ -125,3 +125,26 @@ _Fase 2 – Versão Produção (6 meses):_
     - O sistema deve ser responsivo e funcionar corretamente em dispositivos móveis, tablets e desktops
     - A interface deve ser intuitiva, com navegação clara, para atender usuários com baixa familiaridade tecnológica
     - O sistema deve oferecer suporte em português do Brasil, com linguagem clara e acessível
+
+## Casos de uso
+### Cadastro e autenticação de usuário
+- **Ator principal**: Empreendedor
+- **Pré-condições**: O empreendedor está cadastrado e com as credenciais autênticadas
+- **Fluxo principal**:
+    1. O empreendedor preenche os campos de email, senha e confirmação de senha.
+    2. O empreendedor realiza o cadastro e realiza a confirmação de email
+    3. O sistema armazena as informações do cliente e gera um identificador único
+    4. O empreendendor faz o login com sucesso
+- **Fluxo alternativo**:
+    - No caso 1, se o cliente deixar campos obrigatórios em branco (email e senha), o sistema exibe mensagem de erro e impede o cadastro
+
+### Perfil do empreendedor
+- **Ator principal**: Empreendedor
+- **Pré-condições**: O empreendedor acessa o próprio perfil e consegue visualizar os detalhes da conta
+- **Fluxo principal**:
+    1. O empreendedor consegue completar os dados do perfil, como telefone, nome da empresa e documentos necessários
+    2. O empreendedor consegue ver e acompanhar solicitações feitas ao fundo, também como ver seu status na Receita Federal
+    3. O empreendedor consegue fazer upload dos arquivos e documentos
+- **Fluxo alternativo**:
+    - No caso 1, se o cliente enviar documentos inválidos, o sistema irá verificar e retornar uma mensagem de erro e impedir o envio dos documentos
+    - No caso 3, se o cliente fazer upload de arquivos maiores que 10 MB ou tipos de arquivos inválidos, o sistema irá retornar uma mensagem de erro e impedir o upload 
