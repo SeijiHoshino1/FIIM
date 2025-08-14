@@ -147,4 +147,15 @@ _Fase 2 – Versão Produção (6 meses):_
     3. O empreendedor consegue fazer upload dos arquivos e documentos
 - **Fluxo alternativo**:
     - No caso 1, se o cliente enviar documentos inválidos, o sistema irá verificar e retornar uma mensagem de erro e impedir o envio dos documentos
-    - No caso 3, se o cliente fazer upload de arquivos maiores que 10 MB ou tipos de arquivos inválidos, o sistema irá retornar uma mensagem de erro e impedir o upload 
+    - No caso 3, se o cliente fazer upload de arquivos maiores que 10 MB ou tipos de arquivos inválidos, o sistema irá retornar uma mensagem de erro e impedir o upload
+
+### Análise e aprovação
+- **Ator principal**: Analistas
+- **Pré-condições**: Os analistas conseguem visualizar e filtrar solicitações por status, valor e perfil do solicitante.
+- **Fluxo principal**: 
+    1. Os analistas acessam e avaliam as solicitações
+    2. O sistema pré-seleciona solicitações que não atendem alguns critérios pré-definidos e os recusa automaticamente
+    3. Os analistas fazem comentários internos em solicitações detalhando informações relevantes
+    4. O sistema salva no banco de dados os registros de todas as solicitações
+- **Fluxo alternativo**:
+    - ...
