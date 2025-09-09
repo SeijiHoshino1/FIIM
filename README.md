@@ -157,5 +157,10 @@ _Fase 2 – Versão Produção (6 meses):_
     2. O sistema pré-seleciona solicitações que não atendem alguns critérios pré-definidos e os recusa automaticamente
     3. Os analistas fazem comentários internos em solicitações detalhando informações relevantes
     4. O sistema salva no banco de dados os registros de todas as solicitações
-- **Fluxo alternativo**:
-    - ...
+  ## Equipe
+
+| Cargo                  | Nome               | Responsabilidades Principais                             
+|------------------------|--------------------|--------------------------------------------------------------------------------------------------
+| **Scrum Master**       | Seiji Andre        | Facilitar o processo Scrum, remover impedimentos e apoiar a equipe no desenvolvimento ágil. 
+| **Product Owner (PO)** | Rodolfo Alves      | Gerenciar o backlog, definir prioridades e garantir que o produto atenda às necessidades do cliente. 
+| **Gestor de Projetos** | Gabriel Yudi Pinto | Planejar e controlar o andamento do projeto, gerenciar prazos e recursos. 
