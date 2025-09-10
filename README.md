@@ -161,6 +161,6 @@ _Fase 2 – Versão Produção (6 meses):_
 
 | Cargo                  | Nome               | Responsabilidades Principais                             
 |------------------------|--------------------|--------------------------------------------------------------------------------------------------
-| **Scrum Master**       | Seiji Andre        | Facilitar o processo Scrum, remover impedimentos e apoiar a equipe no desenvolvimento ágil. 
+| **Scrum Master (SM)**       | Seiji Andre        | Facilitar o processo Scrum, remover impedimentos e apoiar a equipe no desenvolvimento ágil. 
 | **Product Owner (PO)** | Rodolfo Alves      | Gerenciar o backlog, definir prioridades e garantir que o produto atenda às necessidades do cliente. 
 | **Gestor de Projetos** | Gabriel Yudi | Planejar e controlar o andamento do projeto, gerenciar prazos e recursos. 
